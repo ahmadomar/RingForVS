@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Ring.VisualStudio.ProjectTemplates.Console</Name>
+    <Description>Ring.VisualStudio.ProjectTemplates.Console</Description>
+    <Icon>Ring.VisualStudio.ProjectTemplates.Console.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>28982860-9a1d-4529-9ec1-035982f5241a</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Ring.VisualStudio.ProjectTemplates.Console</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.ringproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">NewFile.ring</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ring.VisualStudio.TextEditor", "Ring.VisualStudio.TextEditor\Ring.VisualStudio.TextEditor.csproj", "{78D4173D-F826-4BA0-9347-F88A5AE3EFF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ring.VisualStudio.VSIX", "Ring.VisualStudio.VSIX\Ring.VisualStudio.VSIX.csproj", "{87A95767-D16E-456F-BA4A-786B6607E01F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{20982C27-BBD1-4173-948D-59D2569C130F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemTemplates", "ItemTemplates", "{BEF5A5E8-6320-4CDE-8443-ABDA72FDBCA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTemplates", "ProjectTemplates", "{33270314-FDF7-43F6-A326-6FB606305008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ring.VisualStudio.ItemTemplate", "Ring.VisualStudio.ItemTemplate\Ring.VisualStudio.ItemTemplate.csproj", "{84F9314A-6F31-4769-97FA-551167687FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ring.VisualStudio.ProjectTemplates.Console", "Ring.VisualStudio.ProjectTemplates.Console\Ring.VisualStudio.ProjectTemplates.Console.csproj", "{8E13FEAE-AB00-4249-AADC-E1203EEF3767}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78D4173D-F826-4BA0-9347-F88A5AE3EFF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D4173D-F826-4BA0-9347-F88A5AE3EFF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D4173D-F826-4BA0-9347-F88A5AE3EFF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D4173D-F826-4BA0-9347-F88A5AE3EFF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A95767-D16E-456F-BA4A-786B6607E01F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A95767-D16E-456F-BA4A-786B6607E01F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A95767-D16E-456F-BA4A-786B6607E01F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A95767-D16E-456F-BA4A-786B6607E01F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F9314A-6F31-4769-97FA-551167687FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F9314A-6F31-4769-97FA-551167687FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F9314A-6F31-4769-97FA-551167687FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F9314A-6F31-4769-97FA-551167687FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E13FEAE-AB00-4249-AADC-E1203EEF3767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E13FEAE-AB00-4249-AADC-E1203EEF3767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E13FEAE-AB00-4249-AADC-E1203EEF3767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E13FEAE-AB00-4249-AADC-E1203EEF3767}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEF5A5E8-6320-4CDE-8443-ABDA72FDBCA6} = {20982C27-BBD1-4173-948D-59D2569C130F}
+		{33270314-FDF7-43F6-A326-6FB606305008} = {20982C27-BBD1-4173-948D-59D2569C130F}
+		{84F9314A-6F31-4769-97FA-551167687FC3} = {BEF5A5E8-6320-4CDE-8443-ABDA72FDBCA6}
+		{8E13FEAE-AB00-4249-AADC-E1203EEF3767} = {33270314-FDF7-43F6-A326-6FB606305008}
+	EndGlobalSection
+EndGlobal

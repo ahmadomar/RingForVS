@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Ring.VisualStudio.ItemTemplate</Name>
+    <Description>Ring.VisualStudio.ItemTemplate</Description>
+    <Icon>Ring.VisualStudio.ItemTemplate.ico</Icon>
+    <TemplateID>bacbc435-47e4-4ae7-8e91-2886c06ee7ce</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>NewFile.ring</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">NewFile.ring</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
