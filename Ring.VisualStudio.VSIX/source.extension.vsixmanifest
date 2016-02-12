@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="Ring.VisualStudio.VSIX..8ba85116-33e4-4c10-ace8-00e15dd5bfdf" Version="1.0" Language="en-US" Publisher="Ring Team" />
-    <DisplayName>Ring.VisualStudio.VSIX</DisplayName>
+    <DisplayName>RingForVS</DisplayName>
     <Description xml:space="preserve">Supporting Ring Programming Language in Visual Studio</Description>
     <MoreInfo>http://ring-lang.net</MoreInfo>
     <Icon>ringlogo.jpg</Icon>
@@ -13,4 +13,7 @@
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
   </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="Ring.VisualStudio.Editor" Path="|Ring.VisualStudio.Editor|" />
+  </Assets>
 </PackageManifest>
