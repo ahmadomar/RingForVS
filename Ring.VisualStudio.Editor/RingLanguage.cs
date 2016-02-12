@@ -57,9 +57,7 @@ namespace Ring.VisualStudio.TextEditor
 
         private void Initialize()
         {
-            _comments.Add(@"\b#\b");
-
-            _comments.Add(@"\b\\\b");
+            _comments.Add("\\#");
 
             _quoted.Add(@"([""'])(?:\\\1|.)*?\1");
 
