@@ -64,11 +64,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ItemTemplates\Ring\Item\NewFile.ring" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ItemTemplates\Ring\Class\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Ring\Class\icon.png" />
+    <Content Include="ItemTemplates\Ring\Class\readme.txt" />
+    <Content Include="ItemTemplates\Ring\Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Ring\ringlogo.jpg" />
     <Content Include="ringlogo.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
