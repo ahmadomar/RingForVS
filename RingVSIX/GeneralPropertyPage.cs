@@ -4,7 +4,7 @@ using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Project;
 using System.ComponentModel;
 
-namespace Ring.VisualStudio.VSIX
+namespace RingTeam.RingVSIX
 {
     [ComVisible(true)]
     [Guid("30C345C3-D9BE-4B8A-835F-72E3ABDCC3F1")]
