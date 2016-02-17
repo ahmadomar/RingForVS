@@ -5,7 +5,7 @@
     <DisplayName>RingForVS</DisplayName>
     <Description xml:space="preserve">Supporting Ring Programming Language in Visual Studio</Description>
     <MoreInfo>http://ring-lang.net</MoreInfo>
-    <Icon>ringlogo.jpg</Icon>
+    <Icon>thering.jpg</Icon>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
