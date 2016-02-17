@@ -36,7 +36,7 @@ namespace RingTeam.RingVSIX
 
         static RingProjectNode()
         {
-            imageList = Utilities.GetImageList(typeof(RingProjectNode).Assembly.GetManifestResourceStream("RingVSIX.Resources.RingNode.bmp"));
+            imageList = Utilities.GetImageList(typeof(RingProjectNode).Assembly.GetManifestResourceStream("RingTeam.RingVSIX.Resources.RingNode.bmp"));
         }
 
         public override Guid ProjectGuid
