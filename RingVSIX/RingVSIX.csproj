@@ -171,6 +171,9 @@
     <Resource Include="ItemTemplates\Ring\ringlogo.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Content Include="Templates\Projects\Ring\CSharp.vstemplate">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Templates\Projects\Ring\RingProject.ico">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

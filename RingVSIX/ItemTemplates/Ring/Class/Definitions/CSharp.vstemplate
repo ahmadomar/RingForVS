@@ -2,7 +2,6 @@
   <TemplateData>
     <ProjectType>CSharp</ProjectType>
     
-    <DefaultName>Class.txt</DefaultName>
     <Name>Class</Name>
     <Description>Long description here</Description>    
     <Icon>icon.png</Icon>
