@@ -4,7 +4,10 @@
     <Identity Id="d04d94b6-a45c-43fb-966e-6d6f0c3786a6" Version="1.0" Language="en-US" Publisher="Ring Team" />
     <DisplayName>RingForVS</DisplayName>
     <Description xml:space="preserve">Supporting Ring Programming Language in Visual Studio</Description>
+    <MoreInfo>http://ring-lang.net</MoreInfo>
     <Icon>thering.jpg</Icon>
+    <PreviewImage>Screenshot_4.png</PreviewImage>
+    <Tags>Ring</Tags>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
