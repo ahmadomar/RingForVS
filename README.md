@@ -21,6 +21,12 @@ Missing features:
 	2. Add new project for web.
 	3. Compile the current project.
 	
+Notes: To run the .ring file you have to do the below steps :
+
+	1. Open Visual Studio -> Tools -> External Tools -> Click Add
+	2. Title -> Ring 
+	3. Command -> 'Path to Ring.exe'
+	4. Arguments -> $(ItemPath)
 
 #For Developers
 
@@ -35,11 +41,3 @@ https://mpfproj12.codeplex.com/releases/view/115948
 (3) Open file : RingVSIX.csproj
 modify the path : E:\MyWork\OpenSource\MPFProj12\Dev12\Src\CSharp\ProjectBase.Files
 to the new path that you have after download from (2)
-
-
-
-
-
-
-
-
