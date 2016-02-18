@@ -188,6 +188,7 @@
     <None Include="ItemTemplates\Ring\Item\NewFile.ring" />
     <None Include="packages.config" />
     <None Include="Properties\template-builder.props" />
+    <None Include="RingForVS.bat" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
