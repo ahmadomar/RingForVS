@@ -38,6 +38,12 @@ https://www.microsoft.com/en-us/download/details.aspx?id=40758
 (2) Download MPF for Projects - Visual Studio 2013
 https://mpfproj12.codeplex.com/releases/view/115948
 
-(3) Open file : RingVSIX.csproj
-modify the path : E:\MyWork\OpenSource\MPFProj12\Dev12\Src\CSharp\ProjectBase.Files
-to the new path that you have after download from (2)
+(3) Open file : RingVSIX.csproj modify the path : E:\MyWork\OpenSource\MPFProj12\Dev12\Src\CSharp\ProjectBase.Files to the new path that you have after download from (2)
+	
+(4) build the solution using visual studio
+
+(5) Run the extensions 
+
+	RingVSIX\bin\Debug\RingVSIX.vsix 
+	Ring.VisualStudio.Editor\bin\Debug\Ring.VisualStudio.Editor.vsix
+	
