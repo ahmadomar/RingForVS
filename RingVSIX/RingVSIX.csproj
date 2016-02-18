@@ -171,11 +171,16 @@
     <Resource Include="ItemTemplates\Ring\ringlogo.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Content Include="Screenshot_4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Templates\Projects\Ring\CSharp.vstemplate">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Templates\Projects\Ring\RingProject.ico">
       <IncludeInVSIX>true</IncludeInVSIX>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Resource Include="thering.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

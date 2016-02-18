@@ -5,7 +5,7 @@
     <DisplayName>RingForVS</DisplayName>
     <Description xml:space="preserve">Supporting Ring Programming Language in Visual Studio</Description>
     <MoreInfo>http://ring-lang.net</MoreInfo>
-    <Icon>thering.jpg</Icon>
+    <Icon>Templates\Projects\Ring\RingProject.ico</Icon>
     <PreviewImage>Screenshot_4.png</PreviewImage>
     <Tags>Ring</Tags>
   </Metadata>
