@@ -22,10 +22,9 @@ Missing features:
 	3. Compile the current project.
 	
 Notes: To run the .ring file you have to do the below steps :
-
 	1. Open Visual Studio -> Tools -> External Tools -> Click Add
 	2. Title -> Ring 
-	3. Command -> 'Path to Ring.exe'
+	3. Command -> 'Path to RingForVS.bat -> from RingVSIX main folder'
 	4. Arguments -> $(ItemPath)
 
 #For Developers
